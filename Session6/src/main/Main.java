@@ -61,15 +61,18 @@ public class Main extends Application{
 //		RadioButton maleRb, femaleRb;
 		maleRb = new RadioButton("Male");
 		femaleRb = new RadioButton("Female");
-		
+
 //		ToggleGroup genderTG;
 		genderTG = new ToggleGroup();
 		maleRb.setToggleGroup(genderTG);
 		femaleRb.setToggleGroup(genderTG);
+
 //		Spinner<Integer> ageSpinner;
 		ageSpinner = new Spinner<>(0, 100, 10);
+
 //		CheckBox subsCB;
 		subsCB = new CheckBox("Do you want to Subs?");
+
 //		Button regisBtn;
 		regisBtn = new Button("Regis");
 		
@@ -82,7 +85,7 @@ public class Main extends Application{
 				genderLbl,genderContainer,ageLbl,
 				ageSpinner,subsLbl,subsCB,regisBtn);
 		
-		// Note:
+// Note:
 //		DatePicker dp = new DatePicker();
 //		ListView<String> lv = new ListView<>();
 //		ObservableList<String> ol = FXCollections.observableArrayList(
@@ -97,7 +100,6 @@ public class Main extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		// TODO Auto-generated method stub
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
