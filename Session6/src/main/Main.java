@@ -37,7 +37,6 @@ public class Main extends Application{
 	Scene scene;
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		launch(args);
 	}
 	
@@ -54,12 +53,15 @@ public class Main extends Application{
 //		TextField usernameTF;
 		usernameTF = new TextField();
 		usernameTF.getText();
+
 //		PasswordField passwordPF;
 		passwordPF = new PasswordField();
 		passwordPF.getText();
+
 //		RadioButton maleRb, femaleRb;
 		maleRb = new RadioButton("Male");
 		femaleRb = new RadioButton("Female");
+		
 //		ToggleGroup genderTG;
 		genderTG = new ToggleGroup();
 		maleRb.setToggleGroup(genderTG);
